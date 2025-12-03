@@ -1,0 +1,109 @@
+<!DOCTYPE html><html lang="ja"><head>
+<meta charset="UTF-8"><title>20251203 セミナー用プロンプト集</title>
+<style>
+body{font-family:sans-serif;background:#f7f7f7;padding:20px;}
+.prompt-box{position:relative;background:#fff;border:1px solid #ccc;padding:16px;border-radius:8px;margin-bottom:20px;white-space:pre-wrap;}
+.copy-btn{position:absolute;top:10px;right:10px;background:#1976d2;color:#fff;border:none;padding:6px 10px;border-radius:4px;cursor:pointer;font-size:12px;}
+</style>
+<script>
+function copyText(btn){
+ const box=btn.parentElement;
+ const text=box.innerText.replace("コピー","");
+ navigator.clipboard.writeText(text.trim());
+ btn.textContent="コピー済み！";
+ setTimeout(()=>btn.textContent="コピー",1200);
+}
+</script>
+</head><body>
+<h1>20251203 セミナー用プロンプト集</h1><hr>
+<h2>１章：基礎プロンプト</h2><br><div class="prompt-box"><button class="copy-btn" onclick="copyText(this)">コピー</button>
+「以下の文章を、専門知識がない人でも理解できるようにやさしい言葉に書き換えてください。トーンは“ていねい・柔らかい”でお願いします。」
+「本施策は、各部門における業務遂行プロセスの最適化を俯瞰的かつ横断的に推進することにより、全社的なパフォーマンスの底上げを図ることを目的としています。」
+</div>
+<div class="prompt-box"><button class="copy-btn" onclick="copyText(this)">コピー</button>
+「現在、報告書の作成に毎回2時間かかっており、内容の整理にも時間がかかっています。業務フローを見直すには、どこから着手すべきか教えてください」
+</div>
+<div class="prompt-box"><button class="copy-btn" onclick="copyText(this)">コピー</button>
+「週次の会議準備に毎回3時間ほどかかっています。アジェンダ作成、参加者調整、資料印刷が主な作業です。この作業時間を短縮するには、どんな方法がありますか？」
+</div>
+<h2>２章：業務改善プロンプト</h2><br><div class="prompt-box"><button class="copy-btn" onclick="copyText(this)">コピー</button>
+「以下の文章を、重要なポイント3つにまとめてください。」
+「当社の業務フローは部門ごとに最適化が進んだ結果、連携の遅れや情報共有の不足が発生している。特に営業部門と管理部門の間で情報の重複入力が生じており、作業時間の増加とデータ整合性の低下が課題となっている。」
+</div>
+<div class="prompt-box"><button class="copy-btn" onclick="copyText(this)">コピー</button>
+「以下の説明を、社内のITエンジニアではないメンバーにも伝わるようにやさしい言葉で書き換えてください。」
+「今回のシステム改修は、既存データベースの参照負荷を軽減し、トランザクション効率を高めるための最適化施策です。」
+</div>
+<div class="prompt-box"><button class="copy-btn" onclick="copyText(this)">コピー</button>
+「以下の内容を、意味の近い項目ごとに3〜5のカテゴリに分けてください。カテゴリ名もつけてください。」
+「顧客対応の遅れ、担当者の業務量増加、部署間の認識のずれ、システム入力の手間、情報共有の不備、属人化、教育体制不足」
+</div>
+<div class="prompt-box"><button class="copy-btn" onclick="copyText(this)">コピー</button>
+「以下のメモ内容を、
+・要点
+・決まったこと
+・次のアクション
+の3つに整理してください。」
+「A案件の進捗。開発は遅れ気味。原因は仕様変更。次回会議でリスケ案を提案する必要あり。営業部から追加要望あり。優先順位は要確認。」
+</div>
+<div class="prompt-box"><button class="copy-btn" onclick="copyText(this)">コピー</button>
+「以下の連絡文を、誤解が生まれないように“意図が明確に伝わる表現”に書き換えてください。」
+「この前お願いしていた件、進捗どうなってますか？もし難しそうなら、別の人にお願いするかもです。早めにわかると助かります。」
+</div>
+<div class="prompt-box"><button class="copy-btn" onclick="copyText(this)">コピー</button>
+【報告書】「〇〇について上司に報告する文を作成してください」
+</div>
+<div class="prompt-box"><button class="copy-btn" onclick="copyText(this)">コピー</button>
+【メール】「取引先に納期変更の連絡をするメールを作ってください」
+</div>
+<div class="prompt-box"><button class="copy-btn" onclick="copyText(this)">コピー</button>
+【アイデア出し】「新人研修のアイスブレイク案を5つ出してください」
+</div>
+<div class="prompt-box"><button class="copy-btn" onclick="copyText(this)">コピー</button>
+【議事録】「以下の議事内容を要点だけにまとめてください：（自分で入力）」
+</div>
+<div class="prompt-box"><button class="copy-btn" onclick="copyText(this)">コピー</button>
+【プレゼン構成】「〇〇のメリットを伝える3分プレゼンの構成を作ってください」
+</div>
+<h2>３章：AIを動かす“問い”プロンプト</h2><br><div class="prompt-box"><button class="copy-btn" onclick="copyText(this)">コピー</button>
+以下の文章について、
+・何が問題か
+・原因は何か
+・影響は何か
+の3観点で整理してください。
+その上で、明日の社内共有用に読みやすい形に整えてください。
+（自分でいくつか入力）
+</div>
+<div class="prompt-box"><button class="copy-btn" onclick="copyText(this)">コピー</button>
+「以下の文章について、
+1）内容の要点（3つ）
+2）課題と改善案
+の2観点で整理してください。
+その後、社内共有向けに“やさしい語り口”でまとめ直してください。」
+（自分でいくつか入力）
+</div>
+<div class="prompt-box"><button class="copy-btn" onclick="copyText(this)">コピー</button>
+この内容を、重要度順・緊急度順の2軸で整理してください。
+</div>
+<div class="prompt-box"><button class="copy-btn" onclick="copyText(this)">コピー</button>
+文章の“前提・論点・判断材料”を抽出して、意思決定に使える形にしてください。
+</div>
+<div class="prompt-box"><button class="copy-btn" onclick="copyText(this)">コピー</button>
+この説明を、上司向け（結論→根拠）、同僚向け（手順→注意点）、顧客向け（価値→メリット）の3種類に作成してください。
+相手が理解しやすいよう、必要な情報だけに絞って再構成してください。
+</div>
+<div class="prompt-box"><button class="copy-btn" onclick="copyText(this)">コピー</button>
+費用30万円以内・期間2ヶ月以内で実行可能な改善案を3つ出してください。
+案を“リスク・コスト・効果”の3観点で比較できるよう整理してください。
+</div>
+<div class="prompt-box"><button class="copy-btn" onclick="copyText(this)">コピー</button>
+この内容について、ストーリー構成案を3パターン提示してください。
+</div>
+<div class="prompt-box"><button class="copy-btn" onclick="copyText(this)">コピー</button>
+スライド見出し案を5つ作成し、どの流れにするのが最適か提案してください。
+</div>
+<div class="prompt-box"><button class="copy-btn" onclick="copyText(this)">コピー</button>
+この業務を、基本フロー・例外フロー・担当者ごとの責任範囲の3つに分けて整理してください。
+この作業の属人化ポイントを抽出し、改善案を提示してください。
+</div>
+</body></html>
